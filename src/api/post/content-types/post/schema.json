@@ -1,17 +1,23 @@
 {
   "kind": "collectionType",
-  "collectionName": "tests",
+  "collectionName": "posts",
   "info": {
-    "singularName": "test",
-    "pluralName": "tests",
-    "displayName": "test"
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "post"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "test": {
+    "Titre": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "picture": {
       "allowedTypes": [
         "images",
         "files",

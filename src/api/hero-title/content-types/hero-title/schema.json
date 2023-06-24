@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_titles",
+  "info": {
+    "singularName": "hero-title",
+    "pluralName": "hero-titles",
+    "displayName": "HeroTitle",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "line1": {
+      "type": "string"
+    },
+    "line2": {
+      "type": "string"
+    }
+  }
+}

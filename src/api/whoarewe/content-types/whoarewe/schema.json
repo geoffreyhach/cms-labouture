@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "whoarewes",
+  "info": {
+    "singularName": "whoarewe",
+    "pluralName": "whoarewes",
+    "displayName": "Qui sommes nous"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "line1": {
+      "type": "string"
+    },
+    "line2": {
+      "type": "string"
+    },
+    "line3": {
+      "type": "string"
+    },
+    "line4": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    }
+  }
+}
